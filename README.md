@@ -57,7 +57,7 @@ It includes multiple pages with business perspectives — growth, users, transac
 git clone https://github.com/nithishflow/phonepe-pulse-dashboard.git
 cd phonepe-pulse-dashboard
 ---
-2️⃣ Install Required Dependencies
+###2️⃣ Install Required Dependencies
 
 pip install streamlit pandas plotly sqlalchemy pyodbc
 ---
