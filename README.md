@@ -58,9 +58,9 @@ git clone https://github.com/nithishflow/phonepe-pulse-dashboard.git
 cd phonepe-pulse-dashboard
 ---
 
-** 2️⃣ Install Required Dependencies
+2️⃣ Install Required Dependencies
 
--pip install streamlit pandas plotly sqlalchemy pyodbc
+pip install streamlit pandas plotly sqlalchemy pyodbc
 
 3️⃣ Configure SQL Server Connection
 odbc_str = (
