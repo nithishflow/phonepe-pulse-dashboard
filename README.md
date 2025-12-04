@@ -133,5 +133,5 @@ This project is open-source and available under the MIT License.
 Author: Nithish Kumar
 📧 Email: (vasifootball007@gmail.com)
 
-🔗 GitHub: 
+🔗 GitHub: https://github.com/nithishflow/phonepe-pulse-dashboard.git
 
