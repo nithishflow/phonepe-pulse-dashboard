@@ -52,7 +52,7 @@ It includes multiple pages with business perspectives — growth, users, transac
 
 ## 🧩 Installation & Setup
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/nithishflow/phonepe-pulse-dashboard.git
 cd phonepe-pulse-dashboard
