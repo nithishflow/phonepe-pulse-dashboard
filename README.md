@@ -60,8 +60,9 @@ cd phonepe-pulse-dashboard
 
 2️⃣ Install Required Dependencies
 
+```sh
 pip install streamlit pandas plotly sqlalchemy pyodbc
-
+```
 3️⃣ Configure SQL Server Connection
 odbc_str = (
     "DRIVER={ODBC Driver 17 for SQL Server};"
