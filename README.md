@@ -59,29 +59,34 @@ cd phonepe-pulse-dashboard
 ```
 
 2️⃣ Install Required Dependencies
-
+```bash
 
 pip install streamlit pandas plotly sqlalchemy pyodbc
-
+```
 3️⃣ Configure SQL Server Connection
+```bash
 odbc_str = (
     "DRIVER={ODBC Driver 17 for SQL Server};"
     r"SERVER=VASI\\SQLEXPRESS;"
     "DATABASE=phonepe;"
     "Trusted_Connection=yes;"
  )
+```
 
 4️⃣ Add Local GeoJSON File
+```bash
 
 Place india_states.geojson in the same directory as phonepe.py.
-
+```
 5️⃣Run App
+```bash
 streamlit run phonepe.py
-
+```
 
 Open in browser:
+```bash
 👉 http://localhost:8501
-
+```
 🗂 SQL Data Tables Used
 | Table Name | Description                                |
 | ---------- | ------------------------------------------ |
@@ -96,7 +101,7 @@ Open in browser:
 | map_insu   | Insurance mapping metrics                  |
 
 🧱 Project Structure
-
+```bash
 📂 phonepe-dashboard/
 │
 ├── phonepe.py                       # Main Streamlit application
@@ -104,16 +109,17 @@ Open in browser:
 ├── india_states.geojson             # India states shape file for map
 ├── README.md                        # Project documentation
 └── requirements.txt                 # Python dependencies
-
+```
 📊 Sample SQL Queries
+```bash
 SELECT TOP 5 * FROM Agg_trans;
 SELECT TOP 5 * FROM map_user;
 SELECT TOP 5 * FROM map_tran;
 SELECT TOP 5 * FROM top_tran;
 SELECT TOP 5 * FROM Agg_insu;
-
+```
 🙌 Contributing
-
+```bash
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository
@@ -124,15 +130,15 @@ git commit -m "Add some AmazingFeature"
 4. Push to the branch
 git push origin feature/AmazingFeature
 5. Open a Pull Request
-
+```
 📜 License
-
+```bash
 This project is open-source and available under the MIT License.
-
+```
 📬 Contact
-
+```bash
 Author: Nithish Kumar
 📧 Email: (vasifootball007@gmail.com)
-
+```
 🔗 GitHub: https://github.com/nithishflow/phonepe-pulse-dashboard.git
 
