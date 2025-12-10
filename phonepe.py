@@ -63,7 +63,7 @@ STATE_FIX = {
     "Chandigarh": "Chandigarh",
     "Chhattisgarh": "Chhattisgarh",
     "Dadra and Nagar Haveli and Daman and Diu": "Dadra and Nagar Haveli and Daman and Diu",
-    "Delhi": "NCT of Delhi",
+    "Delhi": "Delhi",
     "Goa": "Goa",
     "Gujarat": "Gujarat",
     "Haryana": "Haryana",
@@ -89,7 +89,7 @@ STATE_FIX = {
     "Telangana": "Telangana",
     "Tripura": "Tripura",
     "Uttar Pradesh": "Uttar Pradesh",
-    "Uttarakhand": "Uttarakhand",
+    "Uttarakhand": "Uttaranchal",
     "West Bengal": "West Bengal",
 }
 
@@ -805,6 +805,9 @@ elif page == "🚀 Growth Strategy":
 # =========================================
 st.sidebar.markdown("---")
 st.sidebar.caption("Database: phonepe @ VASI\\SQLEXPRESS  ·  All pages use 5 query blocks.")
+
+
+
 
 
 
