@@ -1,5 +1,3 @@
-# phonepe.py  — single-file Streamlit dashboard
-
 import os
 import json
 import urllib
@@ -82,7 +80,7 @@ STATE_FIX = {
     "Meghalaya": "Meghalaya",
     "Mizoram": "Mizoram",
     "Nagaland": "Nagaland",
-    "Odisha": "Odisha",
+    "Odisha": "Orissa",
     "Puducherry": "Puducherry",
     "Punjab": "Punjab",
     "Rajasthan": "Rajasthan",
@@ -807,6 +805,8 @@ elif page == "🚀 Growth Strategy":
 # =========================================
 st.sidebar.markdown("---")
 st.sidebar.caption("Database: phonepe @ VASI\\SQLEXPRESS  ·  All pages use 5 query blocks.")
+
+
 
 
 
